@@ -17,7 +17,7 @@ else:
 _ex = lambda: sys.exc_info()[1]
 
 
-CYTHON = os.environ.get('CYTHON') or 'cython'
+CYTHON = os.environ.get('CYTHON3') or 'cython3'
 DEBUG = False
 WRITE_OUTPUT = False
 
