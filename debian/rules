@@ -29,9 +29,6 @@ override_dh_auto_clean:
 override_dh_compress:
 	dh_compress -X.js -X_static/* -X _sources/* -X_sources/*/* -X.inv
 
-override_dh_strip:
-	dh_strip --dbg-package=python3-gevent-dbg
-
 override_dh_installdocs:
 	dh_installdocs --link-doc=python3-gevent
 
