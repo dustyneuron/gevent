@@ -3,8 +3,7 @@ Priority: extra
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Örjan Persson <orange@fobie.net>
 Uploaders: Andreas Schuldei <andreas@debian.org>
-Build-Depends: debhelper (>= 7.0.50), python3-all-dev (>= 2.6.6-3~), libevent-dev (>= 1.4),
-               python3-greenlet | python-codespeak-lib (<< 1.0), python3-sphinx (>= 0.6)
+Build-Depends: debhelper (>= 7.0.50), python3-all-dev (>= 2.6.6-3~), libevent-dev (>= 1.4), python3-greenlet | python-codespeak-lib (<< 1.0), python3-sphinx (>= 0.6), cython3
 X-Python3-Version: >= 3.3
 Standards-Version: 3.9.3
 Section: python
