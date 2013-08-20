@@ -1,6 +1,6 @@
 python3-greenlet (1.0) raring; urgency=low
 
- * Nasty debianization of python3 code from https://github.com/fantix/gevent
+  * Nasty debianization of python3 code from fantix/gevent
 
--- Tom Scholl <tom@dustyneuron.com> Tue Aug 20 12:20:28 2013 +0100
+ -- Tom Scholl <tom@dustyneuron.com>  Tue, 20 Aug 2013 12:20:28 +0100
 
