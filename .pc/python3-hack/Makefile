@@ -1,7 +1,7 @@
 # This file is renamed to "Makefile.ext" in release tarballs so that setup.py won't try to
 # run it.  If you want setup.py to run "make" automatically, rename it back to "Makefile".
 
-PYTHON ?= python3
+PYTHON ?= python
 CYTHON ?= cython
 
 all: gevent/gevent.core.c gevent/gevent.ares.c gevent/gevent._semaphore.c gevent/gevent._util.c
