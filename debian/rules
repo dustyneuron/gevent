@@ -18,8 +18,8 @@ override_dh_auto_build:
 	PYTHONPATH=.. make --directory doc/ html
 
 override_dh_auto_install:
-	python setup.py install --install-layout=deb --root=debian/python-gevent
-	python-dbg setup.py install --install-layout=deb --root=debian/python-gevent-dbg
+	python setup.py install --install-layout=deb --root=debian/tmp
+	python-dbg setup.py install --install-layout=deb --root=debian/tmp
 
 override_dh_auto_clean:
 	dh_auto_clean
