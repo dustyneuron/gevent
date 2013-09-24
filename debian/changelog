@@ -1,3 +1,9 @@
+python-gevent (1.0rc3-1) unstable; urgency=low
+
+  * Upstream version 1.0rc3
+
+ -- Tom Scholl <tom@dustyneuron.com>  Tue, 24 Sep 2013 17:30:10 +0100
+
 python-gevent (0.13.7-4) unstable; urgency=low
 
   * Last bits of -dbg package fix (closes: #703611).
